@@ -1,13 +1,13 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
-import { getImagesByQuery } from './pixabay-api';
+import { getImagesByQuery } from './pixabay-api.js';
 import {
   createGallery,
   clearGallery,
   showLoader,
   hideLoader,
-} from './render-functions';
+} from './render-functions.js';
 
 const form = document.querySelector('.form');
 const input = form.elements['search-text'];
