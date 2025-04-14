@@ -28,28 +28,35 @@ body {
 
 .form {
   display: flex;
-  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
 }
 
-input[type='text'] {
-  padding: 10px 12px;
-  width: 250px;
-  border: 1px solid #808080;
-  border-radius: 4px;
-}
-
-button {
-  background-color: #4e75ff;
-  color: white;
-  border: none;
-  border-radius: 8px;
+.form input {
   padding: 10px 16px;
-  font-weight: 500;
-  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 280px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-button:hover {
-  background-color: #6c8cff;
+.form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4e6ef1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #3c55c3;
 }
 
 .loader {
